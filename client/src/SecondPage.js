@@ -7,7 +7,8 @@ const SecondPage = () => {
   return (
     <div className="bg-gray-500 min-h-screen flex flex-col items-center justify-center">
       <div className="h-[100px] w-full">
-        <img src="/04.jpg" alt="Chat icon" className="full" />
+        <img
+    src={`${process.env.PUBLIC_URL}/04.jpg`}  alt="Chat icon" className="full" />
       </div>
       <h1 className="text-4xl font-bold text-white mb-4">Welcome!</h1>
 
@@ -28,7 +29,8 @@ const SecondPage = () => {
         className="ml-[50px] mt-[300px] flex items-center underline space-x-2 text-red-950 text-[40px]"
       >
         <img
-          src="/bluehousehousehome_azulcasa_cas_6791.png"
+          
+          src={`${process.env.PUBLIC_URL}/bluehousehousehome_azulcasa_cas_6791.png`}
           alt="Chat icon"
           className="w-[60px] h-[60px]"
         />

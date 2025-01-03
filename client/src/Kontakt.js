@@ -5,7 +5,9 @@ const Kontakt = () => {
   return (
     <div className="flex flex-col items-center justify-center">
       <div className="h-[100px] w-full">
-        <img src="/05.jpg" alt="Chat icon" className="full" />
+        <img 
+    src={`${process.env.PUBLIC_URL}/05.jpg`} 
+        alt="Chat icon" className="full" />
       </div>
       <h1 className="text-4xl font-bold text-orange-950 mb-4">Kontakt</h1>
       <div className="ml-[30px] text-[30px] font-bold">
@@ -18,7 +20,7 @@ const Kontakt = () => {
   className="ml-[50px] mt-[10px] flex items-center space-x-2 text-red-950 text-[40px]"
 >
   <img
-    src="/whatsapp_logo_icon_259368.png"
+    src={`${process.env.PUBLIC_URL}//whatsapp_logo_icon_259368.png`}
     alt="Chat icon"
     className="w-[60px] h-[60px]"
   />
@@ -31,7 +33,7 @@ const Kontakt = () => {
   className="ml-[50px] mt-[10px] flex items-center space-x-2 text-red-950 text-[40px]"
 >
   <img
-    src="/telegram_logo_icon_259365.png"
+  src={`${process.env.PUBLIC_URL}/telegram_logo_icon_259365.png`}
     alt="Chat icon"
     className="w-[60px] h-[60px]"
   />
@@ -43,11 +45,11 @@ const Kontakt = () => {
   rel="noopener noreferrer"
   className="ml-[50px] mt-[10px] flex items-center  space-x-2 text-red-950 text-[40px]"
 >
-  <img
-    src="/facebook_logo_icon_259372.png"
-    alt="Chat icon"
-    className="w-[60px] h-[60px]"
-  />
+<img
+  src={`${process.env.PUBLIC_URL}/facebook_logo_icon_259372.png`}
+  alt="Chat icon"
+  className="w-[60px] h-[60px]"
+/>
   <span>Chat with us on Facebook</span>
 </a>
 <a
@@ -57,7 +59,7 @@ const Kontakt = () => {
   className="ml-[50px] mt-[10px] flex items-center space-x-2 text-red-950 text-[40px]"
 >
   <img
-    src="/instagram_logo_icon_259370.png"
+  src={`${process.env.PUBLIC_URL}/instagram_logo_icon_259370.png`}
     alt="Chat icon"
     className="w-[60px] h-[60px]"
   />
@@ -70,7 +72,7 @@ const Kontakt = () => {
   className="ml-[50px] mt-[10px] flex items-center space-x-2 text-red-950 text-[40px]"
 >
   <img
-    src="/linkedin_logo_icon_259377.png"
+   src={`${process.env.PUBLIC_URL}/linkedin_logo_icon_259377.png`}
     alt="Chat icon"
     className="w-[60px] h-[60px]"
   />
@@ -83,7 +85,7 @@ const Kontakt = () => {
         className="ml-[50px] mt-[700px] flex items-center underline space-x-2 text-red-950 text-[40px]"
       >
         <img
-          src="/bluehousehousehome_azulcasa_cas_6791.png"
+          src={`${process.env.PUBLIC_URL}/bluehousehousehome_azulcasa_cas_6791.png`}
           alt="Chat icon"
           className="w-[60px] h-[60px]"
         />

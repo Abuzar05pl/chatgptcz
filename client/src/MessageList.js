@@ -7,7 +7,9 @@ const MessageList = () => {
   return (
     <div className="bg-slate-500 min-h-screen">
       <div className="h-[100px] w-full">
-        <img src="/s1.jpg" alt="Chat icon" className="full" />
+        <img 
+       src={`${process.env.PUBLIC_URL}/s1.jpg`}
+        alt="Chat icon" className="full" />
       </div>
 
       <Chat />
@@ -21,7 +23,8 @@ const MessageList = () => {
         >
           <span>Go to About Page</span>
           <img
-            src="/iconfinder-smart-watch-help-about-4011296_113045.png"
+            
+            src={`${process.env.PUBLIC_URL}/iconfinder-smart-watch-help-about-4011296_113045.png`}
             alt="Chat icon"
             className="w-[60px] h-[60px]"
           />
