@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/chatgptcz/static/css/main.723827bb.css",
+    "main.js": "/chatgptcz/static/js/main.7e2180c1.js",
+    "index.html": "/chatgptcz/index.html",
+    "main.723827bb.css.map": "/chatgptcz/static/css/main.723827bb.css.map",
+    "main.7e2180c1.js.map": "/chatgptcz/static/js/main.7e2180c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.723827bb.css",
+    "static/js/main.7e2180c1.js"
+  ]
+}
