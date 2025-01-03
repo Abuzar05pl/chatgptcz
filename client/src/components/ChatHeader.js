@@ -27,7 +27,7 @@ const ChatHeader = () => {
       />
 
       {/* Заголовок, поднятый выше на 30px */}
-      <h2 className="text-9xl text-center text-orange-950 font-semibold mt-[10px]">
+      <h2 className="text-9xl text-center text-orange-950 font-semibold mt-[-40px]">
         CHAT
       </h2>
     </div>
