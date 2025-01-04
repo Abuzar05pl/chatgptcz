@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
+const apiUrl = process.env.REACT_APP_API_URL;
+
 const Chat = () => {
   const [messages, setMessages] = useState([]);
   const [newMessage, setNewMessage] = useState("");
@@ -8,7 +10,7 @@ const Chat = () => {
   // Получение сообщений с сервера
   const fetchMessages = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/messages");
+      const response = await axios.get(apiUrl + "/messages");
       setMessages(response.data);
     } catch (error) {
       console.error("Ошибка при загрузке сообщений", error);
@@ -19,7 +21,7 @@ const Chat = () => {
   const sendMessage = async () => {
     if (newMessage.trim()) {
       try {
-        await axios.post("http://localhost:5000/messages", {
+        await axios.post(apiUrl + "/messages", {
           content: newMessage,
         });
         setNewMessage("");
@@ -34,7 +36,7 @@ const Chat = () => {
   const clearMessageById = async (id) => {
     try {
       console.log("Trying to delete message with id:", id); // Проверяем ID
-      await axios.delete(`http://localhost:5000/messages/${id}`);
+      await axios.delete(`${apiUrl}/messages/${id}`);
       setMessages((prevMessages) =>
         prevMessages.filter((message) => message.id !== id)
       );
