@@ -7,7 +7,7 @@ const About = () => {
     <div className="flex flex-col items-center justify-center">
       <div className="h-[100px] w-full">
         <img 
-        src={`${process.env.PUBLIC_URL}//06.jpg`}
+        src={`${process.env.PUBLIC_URL}/06.jpg`}
         alt="Chat icon" className="full" />
       </div>
       <h1 className="text-4xl font-bold text-orange-950 mb-4">Welcome! </h1>

@@ -20,7 +20,7 @@ const Kontakt = () => {
   className="ml-[50px] mt-[10px] flex items-center space-x-2 text-red-950 text-[40px]"
 >
   <img
-    src={`${process.env.PUBLIC_URL}//whatsapp_logo_icon_259368.png`}
+    src={`${process.env.PUBLIC_URL}/whatsapp_logo_icon_259368.png`}
     alt="Chat icon"
     className="w-[60px] h-[60px]"
   />

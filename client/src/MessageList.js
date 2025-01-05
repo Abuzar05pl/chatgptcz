@@ -19,7 +19,7 @@ const MessageList = () => {
       <div className="text-center mt-2 bg-white">
         <Link
           to="/about"
-          className="ml-[500px] mt-[200px] flex items-center underline space-x-2 text-red-950 text-[40px]"
+          className="ml-[500px] mt-[150px] flex items-center underline space-x-2 text-red-950 text-[40px]"
         >
           <span>Go to About Page</span>
           <img
