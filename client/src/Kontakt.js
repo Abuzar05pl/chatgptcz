@@ -82,7 +82,7 @@ const Kontakt = () => {
 
       <Link
         to="/"
-        className="ml-[50px] mt-[700px] flex items-center underline space-x-2 text-red-950 text-[40px]"
+        className="ml-[50px] mt-[600px] flex items-center underline space-x-2 text-red-950 text-[40px]"
       >
         <img
           src={`${process.env.PUBLIC_URL}/bluehousehousehome_azulcasa_cas_6791.png`}
