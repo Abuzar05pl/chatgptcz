@@ -18,7 +18,7 @@ const About = () => {
      
       <Link
         to="/"
-        className="ml-[50px] mt-[450px] flex items-center underline space-x-2 text-red-950 text-[40px]"
+        className="ml-[50px] mt-[400px] flex items-center underline space-x-2 text-red-950 text-[40px]"
       >
         <img
           
